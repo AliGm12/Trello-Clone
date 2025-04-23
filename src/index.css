@@ -1,0 +1,62 @@
+/* src/styles.css */
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+body {
+  overflow-y: hidden;
+}
+
+
+
+.overflow-scrollbar::-webkit-scrollbar {
+  width: 8px;
+}
+
+.overflow-scrollbar::-webkit-scrollbar-track {
+  /* background: red; */
+}
+
+.overflow-scrollbar::-webkit-scrollbar-thumb {
+  background-color: rgba(128, 128, 128, 0.4); /* translucent gray */
+  border-radius: 10px;
+  backdrop-filter: blur(4px); /* for thumb blur - not widely supported */
+}
+
+.overflow-scrollbar::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(100, 100, 100, 0.6);
+}
+
+.overflow-scrollbar {
+  scrollbar-color: rgba(128, 128, 128, 1) rgba(127, 42, 83, 0.4);
+}
+
+.overflow-scrollbar2 {
+  overflow: auto;
+  scrollbar-width: thin; /* For Firefox */
+  scrollbar-color: transparent transparent; /* For Firefox */
+}
+
+/* For Chrome, Edge, and Safari */
+.overflow-scrollbar2::-webkit-scrollbar {
+  width: 8px; /* Adjust scrollbar width as needed */
+  height: 8px; /* For horizontal scrollbars */
+}
+
+.overflow-scrollbar2::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.overflow-scrollbar2::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.2); /* Semi-transparent thumb */
+  border-radius: 4px;
+}
+
+.overflow-scrollbar2::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(0, 0, 0, 0.3); /* Slightly darker on hover */
+}
+
+/* Hide scrollbar buttons (arrows) */
+.overflow-scrollbar2::-webkit-scrollbar-button {
+  display: none;
+}

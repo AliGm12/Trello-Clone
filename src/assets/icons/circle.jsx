@@ -1,0 +1,1 @@
+export const circle = <svg width="18" height="18" fill="none" viewBox="0 0 16 16" role="presentation" className="css-1t4wpzr"><circle cx="8" cy="8" r="7.25" stroke="currentcolor" strokeWidth="1.5"></circle></svg>
