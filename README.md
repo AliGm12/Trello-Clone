@@ -1,8 +1,16 @@
-# React + Vite
+🧩 Trello Clone – Kanban Board App Built with React
+A fully responsive Trello-inspired Kanban board built with React.js. This project allows users to create boards, add task cards, and organize them across customizable columns via drag-and-drop. It's designed to mimic core Trello functionality with clean UI and intuitive UX.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Key Features:
 
-Currently, two official plugins are available:
+🧱 Create, edit, and delete boards, lists, and cards
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔄 Drag-and-drop card movement (powered by react-beautiful-dnd)
+
+💾 Persistent state with localStorage or backend integration-ready
+
+⚡ Built with React Hooks and modern component architecture
+
+🎨 Clean and minimal UI with optional theming
+
+Perfect for learning React state management, component design, and drag-and-drop interactions.
